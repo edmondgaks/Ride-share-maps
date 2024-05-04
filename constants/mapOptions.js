@@ -1,7 +1,7 @@
 import stops from "./stops";
 
 const mapOptions = {
-    mapId: "9ad5c5c630d1f37a",
+    mapId: process.env.NEXT_PUBLIC_MAP_API_KEY,
     center: stops[0].location,
     zoom: 13,
     disableDefaultUI: true,

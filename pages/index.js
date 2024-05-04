@@ -5,7 +5,7 @@ import MyMap from "../components/MyMap";
 
 export default function App() {
   return (
-    <Wrapper apiKey={process.env.API_MAP_KEY}>
+    <Wrapper apiKey={process.env.NEXT_PUBLIC_API_MAP_KEY}>
       <MyMap />
     </Wrapper>
   );
