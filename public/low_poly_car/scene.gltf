@@ -1,0 +1,369 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 176,
+      "max": [
+        1.6539061069488525,
+        3.740243673324585,
+        0.7338835000991821
+      ],
+      "min": [
+        -1.6306639909744263,
+        1.6635475158691406,
+        -3.5240988731384277
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2112,
+      "componentType": 5126,
+      "count": 176,
+      "max": [
+        0.9877945184707642,
+        1.0,
+        0.9999996423721313
+      ],
+      "min": [
+        -0.9877945780754089,
+        -0.9865422248840332,
+        -0.9999978542327881
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 176,
+      "max": [
+        0.9933651685714722,
+        0.8333961367607117
+      ],
+      "min": [
+        0.46759331226348877,
+        0.010574117302894592
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 354,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4224,
+      "componentType": 5126,
+      "count": 4125,
+      "max": [
+        2.2846920490264893,
+        3.9050228595733643,
+        3.2597451210021973
+      ],
+      "min": [
+        -2.27719783782959,
+        -0.11984902620315552,
+        -5.368284225463867
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 53724,
+      "componentType": 5126,
+      "count": 4125,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1408,
+      "componentType": 5126,
+      "count": 4125,
+      "max": [
+        0.9986459612846375,
+        0.999323308467865
+      ],
+      "min": [
+        0.007613532245159149,
+        0.01503610610961914
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1416,
+      "componentType": 5125,
+      "count": 14151,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "reyad.bader (https://sketchfab.com/reyad.bader)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/low-poly-car-f822f0c500a24ca9ac2af183d2e630b4",
+      "title": "Low poly Car"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 58020,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 34408,
+      "byteOffset": 58020,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 103224,
+      "byteOffset": 92428,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 195652,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/aiStandardSurface2_baseColor.png"
+    },
+    {
+      "uri": "textures/aiStandardSurface2_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/aiStandardSurface2_emissive.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "aiStandardSurface2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.4346417682926829
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "polySurface22_aiStandardSurface2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "polySurface54_aiStandardSurface2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ce513ee95ebe4c79bcd461de3a8030be.fbx"
+    },
+    {
+      "children": [
+        3,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "polySurface11"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "polySurface22"
+    },
+    {
+      "mesh": 0,
+      "name": "polySurface22_aiStandardSurface2_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "polySurface54"
+    },
+    {
+      "mesh": 1,
+      "name": "polySurface54_aiStandardSurface2_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
